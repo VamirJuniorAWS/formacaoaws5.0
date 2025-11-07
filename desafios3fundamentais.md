@@ -32,7 +32,7 @@
 
 ```bash
 # Verificar se API está online
-curl http://SEU-ALB-ENDPOINT/api/versao
+curl http://54.87.24.169/api/versao
 # Deve retornar: {"version":"Bia 4.2.0"}
 
 # Testar endpoint de usuários
