@@ -61,7 +61,7 @@ curl http://SEU-ALB-ENDPOINT/api/usuarios
 **No script deploys3.sh:**
 ```bash
 # Usar endpoint do ALB do desafio dia 2
-API_URL="http://SEU-ALB-ENDPOINT"  # ← Endpoint do desafio dia 2
+API_URL="http://bia-alb-1049593095.us-east-1.elb.amazonaws.com"  # ← Endpoint do desafio dia 2
 ```
 
 **Exemplo real:**
@@ -73,7 +73,7 @@ API_URL="http://bia-549844302.us-east-1.elb.amazonaws.com"
 
 **1. Site S3 carrega:**
 ```bash
-curl http://SEU-BUCKET.s3-website-us-east-1.amazonaws.com
+curl http://Sdesafios-fundamentaisaws-bia.s3-website-us-east-1.amazonaws.com
 ```
 
 **2. Site chama API:**
